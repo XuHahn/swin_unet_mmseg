@@ -1,8 +1,8 @@
 # Swin-S Unet with multiple Losses in Cityscapes Dataset 🚀️
 
 ### * [效果预览 🎉️](demo/)
-<img src="demo/pred_img_2.png" width="450px" height="250px"> <img src="demo/pred_img_3.png" width="450px" height="250px">
-<img src="demo/pred_img.png" width="450px" height="250px"> <img src="demo/pred_img_1.png" width="450px" height="250px">
+<img src="demo/pred_img_2.png" width="350px" height="200px"> <img src="demo/pred_img_3.png" width="350px" height="200px">
+<img src="demo/pred_img.png" width="350px" height="200px"> <img src="demo/pred_img_1.png" width="350px" height="200px">
 
 ### * [环境配置 🎉️](docs/get_started.md)
 
