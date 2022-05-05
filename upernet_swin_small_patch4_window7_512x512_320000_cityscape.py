@@ -9,7 +9,7 @@ data = dict(samples_per_gpu=4)
 # model settings
 norm_cfg = dict(type='BN', requires_grad=True)
 model = dict(
-    pretrained='pretrain/swin_base_patch4_window7_224.pth',
+    pretrained='pretrain/swin_small_patch4_window7_224.pth',
     type='EncoderDecoder',
     backbone=dict(
         type='SwinTransformer',
