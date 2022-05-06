@@ -68,6 +68,13 @@ python tools/convert_datasets/cityscapes.py data/cityscapes --nproc 8
   rm swin_small_patch4_window7_224.pth
   python tools/train.py upernet_swin_small_patch4_window7_512x512_320000_multiple_loss_cityscape.py --gpu-ids 0
   ```
+  
+### * [权重下载 🎉️](https://github.com/XuHahn/swin_unet_mmseg/releases/)
+
+| iter | mIoU | mAcc | 下载 |
+| ----- | ----- | ----- | -----|
+| 192000 | 80.34% | 86.99% | [⬇️](https://github.com/XuHahn/swin_unet_mmseg/releases/tag/iter192000-miou80.34) |
+
 
 ### * [验证 🎉️](docs/inference.md)
 
