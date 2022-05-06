@@ -9,6 +9,9 @@
 <img src="demo/pred_img_2.png" width="350px" height="200px"> <img src="demo/pred_img_3.png" width="350px" height="200px">
 <img src="demo/pred_img.png" width="350px" height="200px"> <img src="demo/pred_img_1.png" width="350px" height="200px">
 
+
+
+
 ### * [环境配置 🎉️](docs/get_started.md)
 
 * 环境安装
@@ -76,9 +79,23 @@ python tools/convert_datasets/cityscapes.py data/cityscapes --nproc 8
   
 ### * [权重下载 🎉️](https://github.com/XuHahn/swin_unet_mmseg/releases/)
 
-| iter | mIoU | mAcc | 下载 |
-| ----- | ----- | ----- | -----|
-| 192000 | 80.34% | 86.99% | [⏬](https://github.com/XuHahn/swin_unet_mmseg/releases/tag/iter192000-miou80.34) |
+#### * iter192000:
+  | iter | mIoU | mAcc | 下载 |
+  | ----- | ----- | ----- | -----|
+  | 192000 | 80.34% | 86.99% | [⏬](https://github.com/XuHahn/swin_unet_mmseg/releases/tag/iter192000-miou80.34) |
+
+  |     Class     |  IoU  |  Acc  |     Class     |  IoU  |  Acc  |
+  |---------------|-------|-------|---------------|-------|-------|
+  |      road     | 98.23 | 99.35 |      sky      | 95.34 | 98.45 |
+  |    sidewalk   | 85.71 | 91.15 |     person    | 83.96 | 90.81 |
+  |    building   | 92.92 | 96.99 |     rider     | 66.24 | 79.68 |
+  |      wall     | 61.53 | 68.19 |      car      | 95.67 | 97.72 |
+  |     fence     | 61.19 |  69.6 |     truck     | 84.17 | 89.94 |
+  |      pole     | 66.97 | 77.55 |      bus      | 91.95 | 94.47 |
+  | traffic light | 73.88 | 83.43 |     train     | 84.71 | 89.64 |
+  |  traffic sign | 80.71 | 85.94 |   motorcycle  | 69.27 | 77.15 |
+  |   vegetation  | 92.86 | 96.61 |    bicycle    | 74.55 | 91.92 |
+  |    terrain    | 66.61 | 74.14 |    average    | 80.34 | 86.99 |
 
 
 ### * [验证 🎉️](docs/inference.md)
