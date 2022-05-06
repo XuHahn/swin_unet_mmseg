@@ -36,7 +36,7 @@ mkdir "$PROJECT/data"
 mkdir "$PROJECT/data/cityscapes"
 ```
 
-2. Cityscapes数据集可以在 [这里](https://www.cityscapes-dataset.com/downloads/) 下载。本项目使用 [训练集](https://www.cityscapes-dataset.com/file-handling/?packageID=3) 和 [标签](https://www.cityscapes-dataset.com/file-handling/?packageID=1)
+2. Cityscapes数据集可以在 [这里](https://www.cityscapes-dataset.com/downloads/) 下载。本项目使用的 [训练集](https://www.cityscapes-dataset.com/file-handling/?packageID=3) 和 [标签](https://www.cityscapes-dataset.com/file-handling/?packageID=1)
 3. 下载完成后解压数据集
 
 ```shell
