@@ -18,6 +18,7 @@
 
   ```bash
   pip install requirements.txt
+  
   ```
 
   或者
@@ -25,6 +26,13 @@
   ```bash
   conda create --name <env> --file requirements.txt
   ```
+  
+   或者
+
+  ```bash
+  sh environments.sh
+  ```
+  
 
 ### * [数据集下载与预处理 🎉️](docs/dataset_prepare.md)
 
