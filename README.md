@@ -73,7 +73,7 @@ python tools/convert_datasets/cityscapes.py data/cityscapes --nproc 8
 
 | iter | mIoU | mAcc | 下载 |
 | ----- | ----- | ----- | -----|
-| 192000 | 80.34% | 86.99% | [⬇️](https://github.com/XuHahn/swin_unet_mmseg/releases/tag/iter192000-miou80.34) |
+| 192000 | 80.34% | 86.99% | [⏬](https://github.com/XuHahn/swin_unet_mmseg/releases/tag/iter192000-miou80.34) |
 
 
 ### * [验证 🎉️](docs/inference.md)
