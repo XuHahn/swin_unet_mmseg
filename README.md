@@ -1,5 +1,10 @@
 # Swin-S Unet with multiple Losses in Cityscapes Dataset 🚀️
 
+
+### * 如果您使用了本代码，可以点击🌟或Fork给予我鼓励!谢谢！🙏
+* ![Github stars](https://img.shields.io/github/stars/XuHahn/swin_unet_mmseg.svg) ![Github forks](https://img.shields.io/github/forks/XuHahn/swin_unet_mmseg.svg)
+
+
 ### * [效果预览 🎉️](demo/)
 <img src="demo/pred_img_2.png" width="350px" height="200px"> <img src="demo/pred_img_3.png" width="350px" height="200px">
 <img src="demo/pred_img.png" width="350px" height="200px"> <img src="demo/pred_img_1.png" width="350px" height="200px">
