@@ -1,0 +1,17 @@
+opencv-python~=4.5.5.62
+mmcv~=1.4.5
+numpy~=1.22.2
+matplotlib~=3.5.1
+typing~=3.7.4.3
+timm~=0.4.12
+pillow~=9.0.1
+prettytable~=3.2.0
+packaging~=21.3
+requests~=2.27.1
+seaborn~=0.11.2
+scipy~=1.8.0
+cityscapesscripts~=2.2.0
+pyquaternion~=0.9.9
+appdirs~=1.4.4
+coloredlogs~=15.0.1
+tqdm~=4.62.3
